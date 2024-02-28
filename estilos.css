@@ -40,13 +40,6 @@ header{
     width: 40%;
     background-color: #424242;
 }
-
-.caja-cara .cara:hover{
-
-    transform: scale(1.1);
-    transition: all 0.5s ease-in-out;
-}
-
 .caja-presentacion{
     display: flex;
     justify-content: center;
@@ -59,7 +52,7 @@ header{
 
 .dos{
     background-color: #F2F2F2;
-    height: 700px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,7 +60,6 @@ header{
     color: #303030;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 32px;
 }
 .aptitudes{
     width: 50%;
@@ -104,7 +96,7 @@ header{
     padding: 10px;
 }
 .card img{
-    width: 50%;
+    width: 100%;
 }
 .card a, footer a {
     color: white;
@@ -125,16 +117,16 @@ footer{
     color: #F2F2F2;
     height: 250px;
 }
+.contacto{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
 
 footer img:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
     cursor: pointer;
-}
-.contacto{
-    width: 30%;
-    display: flex;
-    justify-content: center;
 }
 
 .card:hover{
